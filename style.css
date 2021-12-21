@@ -1,3 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .text-block {
     background-color: rgb(45, 165, 91);
+    display: block;
+    width: 121px;
+    height: 16px;
+    overflow: hidden;
 }
+
+.text-block:hover {
+    background-color: red;
+}
+
+.block {
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+  }
